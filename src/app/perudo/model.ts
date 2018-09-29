@@ -4,11 +4,11 @@ export interface Player {
   name: string;
 }
 
-export type DieValue = 1 | 2 | 3 | 4 | 5 | 6;
+export type DieDots = 1 | 2 | 3 | 4 | 5 | 6;
 
 export interface Bid {
-  value: DieValue;
-  count: number;
+  dots: DieDots;
+  dieCount: number;
 }
 
 export interface Game {
